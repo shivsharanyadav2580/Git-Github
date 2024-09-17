@@ -1,0 +1,28 @@
+[placeholder]{
+    color: blue;
+    background-color: aquamarine;
+    color: rgb(223, 15, 15);
+    font-size: bold;
+}
+[value=Submit]{
+    color: blue;
+    background-color: aquamarine;
+    color: rgb(223, 15, 15);
+    font-size: bold;
+}
+[title~=flower]{
+    color: blue;
+    background-color: rgb(255, 150, 127);
+    color: rgb(223, 15, 15);
+    font-size: bold;
+}
+div[class=shiv]{
+    background-color: aquamarine;
+    border: 2px solid red;
+}
+a:visited{
+    color: blue;
+    background-color: aquamarine;
+    color: rgb(223, 15, 15);
+    font-size: bold;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        div{
+            text-align: center;
+            border: 2px solid rgb(168, 7, 226);
+        }
+        
+        caption {
+            font-weight: bold;
+            font-size: 20px;
+            color: blue;
+        }
+        
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+            background-color: aqua;
+            color: red
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <div>
+
+    
+    <h1>User Registration Form</h1>
+    <form action="/submit" method="post">
+        <label for="First Name">First Name:</label>
+        <input type="text" id="First Name" name="First Name" required><br><br>
+       
+        <label for="lastName">Last Name:</label>
+
+        <input type="text" id="lastName" name="lastName" required><br><br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="contact">Contact Number:</label>
+        <input type="tel" id="contact" name="contact" required><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+
+        <button>Submit</button> <br><br><br>
+    </div>
+    
+    <table>
+        <caption>Student Gender Data</caption>
+        <tr>
+            <th>Student ID</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Gender</th>
+        </tr>
+        <tr>
+            <td>101</td>
+            <td>John</td>
+            <td>Doe</td>
+            <td>Male</td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>Jane</td>
+            <td>Smith</td>
+            <td>Female</td>
+        </tr>
+        <tr>
+            <td>103</td>
+            <td>Alex</td>
+            <td>Johnson</td>
+            <td>Non-binary</td>
+        </tr>
+        <tr>
+            <td>104</td>
+            <td>Chris</td>
+            <td>Lee</td>
+            <td>Other</td>
+        </tr>
+    </table>
+    <lable>Choose Your Fruits:</lable>
+    <select id="fruitSelect">
+        <option value="apple">Apple</option>
+        <option value="banana">Banana</option>
+        <option value="cherry">Cherry</option>
+        <option value="grape">Grape</option>
+        <option value="kiwi">Kiwi</option>
+        <option value="mango">Mango</option>
+        <option value="orange">Orange</option>
+        <option value="pear">Pear</option>
+        <option value="pineapple">Pineapple</option>
+        <option value="strawberry">Strawberry</option>
+    </select>
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, temporibus.</h1>
+    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, temporibus.</h2>
+    
+</body>
+</html>

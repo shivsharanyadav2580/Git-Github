@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Animation</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            animation-name: myanimation;
+            animation-duration: 4s;
+            animation-iteration-count: 2;
+            animation-timing-function: linear;
+        }
+        @keyframes myanimation{
+            from{
+                background-color: red;
+            }
+            to{
+                background-color: blue;
+            }
+        }
+            
+    </style>
+</head>
+<body>
+    <div class="box">My Animation</div>
+</body>
+</html>

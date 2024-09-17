@@ -1,0 +1,22 @@
+/* *{
+    color: forestgreen;
+    font-size: 25px;
+    font-weight: 800;
+} */
+pre{
+    color: chartreuse;
+    font-family: 'Courier New', Courier, monospace;
+}
+.paragraph{
+    font-style: italic;
+    font-weight: 0500px;
+    font-size: 50px;
+    color: #f10707;
+    
+}
+#id{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    
+
+}

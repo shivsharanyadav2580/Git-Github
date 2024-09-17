@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Javascript</title>
+    <script>
+        function clickMe(){
+         document.getElementById('my_para').innerHTML = "this is my new paragraph";
+        }
+        function style_Me(){
+            document.querySelector('#my_para').style.color = 'red';
+        }
+         
+        
+    </script>
+
+</head>
+<body>
+    <h1>My first Javascript code</h1>
+    <p id="my_para">Today i learn query selector in javascript</p>
+    <button  onclick="clickMe()">Change me</button>
+    <button onclick="style_Me()">Style me</button>
+
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+section1{
+    color: blue;
+    background-color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+}
+nav{
+    text-align: right;
+    background-color: #d7ff12;
+    color: rgb(163, 18, 18);
+    font-size: 20px;
+    font-weight: bold;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+}
+div{
+    color: crimson;
+    font-size: 50px;
+    font-weight: bold;
+    background-color:#1c8fbb;
+    font-style: italic;
+    rgba(255, 255, 0, 0)
+    width: 90px;
+    height: 59px;
+    
+
+    
+}
+form{
+    margin-left: 15px;
+}
+#Footcontainer{
+    color: rgb(255, 0, 30);
+    text-align: center;
+    height: 150px;
+background-color: chartreuse;}
